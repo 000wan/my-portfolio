@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.page {
+  position: relative;
+  top: 100px;
+}
+
+button {
+  font-family: "Noto Sans KR", sans-serif;
+}

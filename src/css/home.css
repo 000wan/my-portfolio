@@ -1,0 +1,14 @@
+.home-page {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.home-name {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
