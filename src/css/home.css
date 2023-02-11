@@ -20,5 +20,11 @@ img {
 
 .home-bottom {
   background: rgb(0 0 0 / 5%);
-  height: 430px;
+  height: 550px;
+  padding: 20px 0;
+}
+
+.home-title {
+  text-align: right;
+  margin-right: 30px;
 }
