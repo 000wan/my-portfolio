@@ -12,7 +12,7 @@ const Header = () => {
       <div className="header-menu">
         <button className={toggle ? "header-button" : "header-button-exit"}>Home</button>
         <button className={toggle ? "header-button" : "header-button-exit"}>Portfolio</button>
-        <button className={toggle ? "header-button" : "header-button-exit"}>Timeline</button>
+        <button className={toggle ? "header-button" : "header-button-exit"}>Education</button>
         <button className={toggle ? "header-button" : "header-button-exit"}>Interests</button>
       </div>
     </div>

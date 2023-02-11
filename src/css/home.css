@@ -12,3 +12,13 @@ img {
   margin-left: 5px;
   margin-right: 5px;
 }
+
+.home-top {
+  padding: 50px 0;
+  border-bottom: 1px solid rgb(0 0 0 / 50%);
+}
+
+.home-bottom {
+  background: rgb(0 0 0 / 5%);
+  height: 430px;
+}
