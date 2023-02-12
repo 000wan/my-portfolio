@@ -43,8 +43,17 @@ const Carousel = ({ Items }: CarouselProps) => {
         className="carousel-container"
         style={{ width: indSup + 1 + "00vw", transform: "translateX(-" + index + "00vw)" }}
       >
-        {Items.map((Item) => (
-          <Item className="carousel-item" />
+        {Items.map((Item, id) => (
+          <Item className="carousel-item" key={id} />
+        ))}
+      </div>
+      <div className="carousel-slider">
+        {Items.map((Item, id) => (
+          <button className="carousel-slider-button" onClick={(e) => setIndex(id)} key={id}>
+            <span className="material-symbols-outlined" style={{ fontSize: "15px" }}>
+              {id == index ? "trip_origin" : "circle"}
+            </span>
+          </button>
         ))}
       </div>
     </div>

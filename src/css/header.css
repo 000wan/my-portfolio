@@ -12,18 +12,13 @@
 }
 
 .header-toggle {
-  background: transparent;
-  border: none;
   font-size: 22px;
-  margin: 0;
-  padding: 0;
   width: 100px;
   height: 100px;
   transition-duration: 0.5s;
 }
 
 .header-toggle:hover {
-  cursor: pointer;
   background-color: rgb(0 0 0 / 4%);
 }
 
@@ -75,7 +70,6 @@
 }
 
 .header-button:hover {
-  cursor: pointer;
   background-color: rgb(0 0 0 / 4%);
   border-bottom: 1px solid black;
 }
